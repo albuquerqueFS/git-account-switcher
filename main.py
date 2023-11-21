@@ -1,6 +1,6 @@
 import typer
-import writter
-import account_manager
+import functions.writter as writter
+import functions.account_manager as account_manager
 
 app = typer.Typer()
 
